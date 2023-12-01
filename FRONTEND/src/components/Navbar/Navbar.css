@@ -1,0 +1,73 @@
+.main123 {
+  background: #343a40;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: 75px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  margin-top: -0.5em;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.img:hover {
+  transform: scale(1.2);
+}
+
+.search {
+  margin-top: 10px;
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+}
+
+.com {
+  display: flex;
+  margin-left: 500px;
+  cursor: pointer;
+}
+
+.p,
+.p91,
+.blog {
+  padding: 15px;
+  margin-left: 5px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.2s, font-size 0.2s, box-shadow 0.2s, border-radius 0.2s;
+}
+
+.p:hover,
+.p91:hover,
+.p:active,
+.p91:active,
+.p:focus,
+.p91:focus {
+  color: #ed563b;
+  font-size: 17px;
+  box-shadow: 2px 2px 2px 2px gray;
+  border-radius: 10px;
+}
+
+.blog {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.img5 {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.img5:hover {
+  transform: scale(1.2);
+}
